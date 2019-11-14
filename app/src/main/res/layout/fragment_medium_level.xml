@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.menuItems.MediumLevel">
+
+    <LinearLayout
+        android:background="@color/blue_2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/mediumOmuz"
+            android:layout_margin="20sp"
+            android:text="OMUZ"
+            android:textColor="#4564FF"
+            android:textSize="30sp"
+            android:shadowColor="#345FA8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_blue"/>
+        <Button
+            android:id="@+id/mediumSirt"
+            android:layout_margin="20sp"
+            android:text="SIRT"
+            android:textColor="#4564FF"
+            android:textSize="30sp"
+            android:shadowColor="#345FA8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_blue"/>
+        <Button
+            android:id="@+id/mediumGogus"
+            android:layout_margin="20sp"
+            android:text="GÖĞÜS"
+            android:textColor="#4564FF"
+            android:textSize="30sp"
+            android:shadowColor="#345FA8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_blue"/>
+        <Button
+            android:id="@+id/mediumOnarkakol"
+            android:layout_margin="20sp"
+            android:text="ÖN-ARKA KOL"
+            android:textColor="#4564FF"
+            android:textSize="30sp"
+            android:shadowColor="#345FA8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_blue"/>
+    </LinearLayout>
+
+</FrameLayout>

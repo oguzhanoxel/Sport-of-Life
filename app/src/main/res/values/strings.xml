@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sport of Life</string>
+    <string name="title_activity_menu"> </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tehlikeliZayif">Tehlikeli derecede zayıflık</string>
+    <string name="yuksekZayif">Yüksek derecede zayıflık</string>
+    <string name="oldukcaZayif">Oldukça zayıf</string>
+    <string name="normal">Normal</string>
+    <string name="kilolu">Kilolu</string>
+    <string name="obezite1">1. Seviye Obezite</string>
+    <string name="obezite2">2. Seviye Obezite</string>
+    <string name="obezite3">3. Seviye Obezite</string>
+    <string name="message_minutes">Dakika giriniz</string>
+    <string name="hint_minute">Dakika</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

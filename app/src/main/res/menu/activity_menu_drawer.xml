@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/ic_menu"
+            android:title="SPOR PROGRAMLARI" >
+
+            <menu>
+
+                <item
+                    android:id="@+id/vkeItem"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Vücut Kütle Endeksi"/>
+
+                <item
+                    android:id="@+id/subitem1"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Başlangıç Seviyesi"/>
+
+                <item
+                    android:id="@+id/subitem2"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Orta Seviye"/>
+
+                <item
+                    android:id="@+id/subitem3"
+                    android:icon="@drawable/ic_menu"
+                    android:title="İleri Seviye"/>
+
+            </menu>
+        </item>
+
+            <menu>
+                <item
+                    android:id="@+id/subitem4"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Aktiviteler"/>
+            </menu>
+
+        <item
+            android:id="@+id/cihazlar"
+            android:title="CİHAZLAR" >
+
+            <menu>
+                <item
+                    android:id="@+id/timer"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Zamanlayıcı"/>
+
+                <item
+                    android:id="@+id/ilerleme"
+                    android:icon="@drawable/ic_menu"
+                    android:title="İlerleme"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+            <item
+                android:id="@+id/item4"
+                android:icon="@drawable/ic_menu"
+                android:title="Hakkımızda" />
+
+</menu>
